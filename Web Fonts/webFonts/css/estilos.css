@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+
+/*instalacion de fuentes*/
+@font-face{
+	src:url("../fonts/aero.ttf"),url("../fonts/aero.woff");
+	font-family:"font1";
+}
+a img{
+	border:none;
+}
+
+h1{font-family:"font1";}
+h2{font-family: "Lakki Reddy";}
+.logo{font-size:3em;}
+.logo:hover{color:purple;}
+
+p{font-family: "Open Sans";
+  font-weight:100;
+  font-style:italic;
+
+}
+#galeria{
+	list-style-type:none;
+	margin:0 auto;
+	width: 500px;	
+}
+#galeria li{
+	float:left;
+}
+.img2{
+	width:100px;
+	height:75px;
+}
+.miniatura{
+	filter: blur(10px);
+}
